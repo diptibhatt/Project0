@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  background-color: lightblue;
+  overflow: auto;
+}
+
+
+a:link{
+  text-decoration: none;
+}
+.header a{
+  float: right;
+  color: orange;
+  border: 20px solid lightblue;
+  background-color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+
+.grid-container{
+  display:grid;
+  grid:150px / auto auto auto auto;
+  align-items: center;
+  top-padding: 100px;
+}
+#contactinfo {
+  font-size: 20px;
+}
+div.gallery{
+   margin: 25px;
+   border: 3px solid blue;
+   float:left;
+   width:auto;
+}
+div.gallery:hover{
+  border: 1px solid #777;
+}
+div.gallery img{
+  width:400px;
+  height: 200px;
+}
+div.description{
+  padding: 15px;
+  text-align: center;
+}
